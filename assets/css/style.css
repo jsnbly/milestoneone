@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*------page colors------*/
+body{
+    background-color: black;
+
+}
+
+/*------header css------*/
+header {
+    margin: 0;
+}
+
+.logo{
+background: url("../images/monkees.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 552px;
+transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+}
