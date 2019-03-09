@@ -2,7 +2,7 @@
 
 /*------page colors------*/
 body{
-    background-color: black;
+    background-color: whitesmoke;
 
 }
 
@@ -11,14 +11,67 @@ header {
     margin: 0;
 }
 
-.logo{
+/*--jumbotron--*/
+.jumbotron {
+padding: 0;
+margin: 0;
 background: url("../images/monkees.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
 min-height: 552px;
+height: 100%;
+width: 100%;
+background-size: cover;
+display: flex;
+background-repeat: no-repeat;
 transition: all .5s ease-in-out;
 -o-transition: all .5s ease-in-out;
 -moz-transition: all .5s ease-in-out;
 -webkit-transition: all .5s ease-in-out;
 }
+
+/*-- Navbar custom --*/
+.navbar{
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-default .navbar-brand {
+    color:#fafafa;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fafafa;
+}
+.navbar-default .navbar-nav>li>a :hover {
+    color: #fafafa;
+}
+
+
+
+
+/*---unused to be removed...
+.logotext{
+text-align: center;
+color: #fafafa;
+z-index: 0;
+position: absolute;
+}
+
+
+.bgimageindex{
+background: url("../images/monkees.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 552px;
+display: flex;
+Taken from W3schools https://www.w3schools.com/howto/howto_css_blurred_background.asp 
+filter: blur(2px);
+-webkit-filter: blur(3px);
+transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-webkit-transition: all .5s ease-in-out;
+
+}
+--*/
+     
