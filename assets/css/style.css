@@ -11,12 +11,11 @@ header {
     margin: 0;
 }
 
-/*--jumbotron--*/
+/*--Jumbotron--*/
 .jumbotron {
 padding: 0;
 padding-top: 100px;
 padding-left: 10px;
-margin: 0;
 background: url("../images/monkeesred.jpg");
 min-height: 552px;
 height: 100%;
@@ -32,7 +31,7 @@ transition: all .5s ease-in-out;
 -webkit-transition: all .5s ease-in-out;
 }
 
-/*-- added text shadow to h` --*/
+/*-- Added text shadow to h1 --*/
 .jumbotron h1{
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -57,6 +56,18 @@ transition: all .5s ease-in-out;
 
 .navbar-default .navbar-nav>li>a {
     
+}
+
+/*--Page sections--*/
+
+/*--Band Section--*/
+.bandsection h3 p{
+    font-family: 'Poppins',serif;
+}
+
+.bandsection img{
+    width: 200px;
+    height: 200px;
 }
 
 /*--Footer CSS--*/
