@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*------page colors------*/
+/*------Page Colors------*/
 body{
     background-color: whitesmoke;
 
 }
 
-/*------header css------*/
+/*------Header CSS------*/
 header {
     margin: 0;
 }
@@ -14,13 +14,17 @@ header {
 /*--jumbotron--*/
 .jumbotron {
 padding: 0;
+padding-top: 100px;
+padding-left: 10px;
 margin: 0;
-background: url("../images/monkees.jpg");
+background: url("../images/monkeesred.jpg");
 min-height: 552px;
 height: 100%;
 width: 100%;
 background-size: cover;
 display: flex;
+color: #fafafa;
+font-family: 'Poppins',serif;
 background-repeat: no-repeat;
 transition: all .5s ease-in-out;
 -o-transition: all .5s ease-in-out;
@@ -28,50 +32,46 @@ transition: all .5s ease-in-out;
 -webkit-transition: all .5s ease-in-out;
 }
 
-/*-- Navbar custom --*/
+/*-- added text shadow to h` --*/
+.jumbotron h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.jumbotron p{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*-- Navbar Custom CSS --*/
 .navbar{
-    background-color: transparent;
+    background-color: whitesmoke;
     border: 0;
 }
 
-.navbar-default .navbar-brand {
-    color:#fafafa;
+
+.navbar-default {
+    
+    
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #fafafa;
-}
-.navbar-default .navbar-nav>li>a :hover {
-    color: #fafafa;
+    
 }
 
+/*--Footer CSS--*/
+footer{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.footer-copy{
+    padding-top: 5px;
+    font-family: 'Poppins', serif;
 
-
-
-/*---unused to be removed...
-.logotext{
-text-align: center;
-color: #fafafa;
-z-index: 0;
-position: absolute;
 }
 
-
-.bgimageindex{
-background: url("../images/monkees.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-min-height: 552px;
-display: flex;
-Taken from W3schools https://www.w3schools.com/howto/howto_css_blurred_background.asp 
-filter: blur(2px);
--webkit-filter: blur(3px);
-transition: all .5s ease-in-out;
--o-transition: all .5s ease-in-out;
--moz-transition: all .5s ease-in-out;
--webkit-transition: all .5s ease-in-out;
+/*-- social media buttons--*/
+.fab{
+    color: black;
 
 }
---*/
-     
