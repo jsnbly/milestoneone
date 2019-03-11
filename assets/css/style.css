@@ -54,7 +54,8 @@ transition: all .5s ease-in-out;
     
 }
 
-.navbar-default .navbar-nav>li>a {
+navbar-nav navbar-right li a:hover{
+    color: #1abc9c !important;
     
 }
 
