@@ -1,8 +1,6 @@
-# Your Project's Name
+# Milestone Project One The Monkees!
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+Tasked to create a Static Website for a band, In this case "The Monkees"
  
 ## UX
  
