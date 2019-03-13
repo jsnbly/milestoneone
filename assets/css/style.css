@@ -2,7 +2,7 @@
 
 /*------Page Colors------*/
 body{
-    background-color: whitesmoke;
+    background-color: white;
 
 }
 
@@ -13,19 +13,33 @@ header {
 
 /*--Jumbotron--*/
 .jumbotron {
-padding: 0;
-padding-top: 100px;
-padding-bottom: 85px;
-background: url("../images/mksbw.jpg");
-height: auto;
-width: 100%;
-background-size: 100%, 100%;
-font-family: 'Poppins',serif;
-background-repeat: no-repeat;
-transition: all .5s ease-in-out;
--o-transition: all .5s ease-in-out;
--moz-transition: all .5s ease-in-out;
--webkit-transition: all .5s ease-in-out;
+background-color: transparent;
+
+}
+
+/*--transparent overlay for jumbotron--*/
+.tp-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*jumbotron background*/
+.news-bg{
+    height: 100vh;
+    width: 100%;
+    background: url('../images/mksbw.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 /*-- Added text shadow to h1 --*/
@@ -52,6 +66,9 @@ navbar-nav navbar-right li a:hover{
     
 }
 
+/*--end of header css--*/
+
+
 /*-----Page Sections-----*/
 
 /*--Band Section--*/
@@ -73,13 +90,22 @@ navbar-nav navbar-right li a:hover{
 
 /*--Music Section--*/
 .musicsection{
+    padding-bottom: 50px;
     background-color: darkorange;
     color: #fafafa;
-    
+   
+}
+
+.musicsection img{
+    width: 150px;
+    height: 150px;
 }
 
 /*--Video Section--*/
 .videosection{
+    background-color: darkolivegreen;
+    color: #fafafa;
+    padding-bottom: 50px;
 
 }
 
