@@ -15,17 +15,13 @@ header {
 .jumbotron {
 padding: 0;
 padding-top: 100px;
-padding-left: 10px;
-background: url("../images/monkeesred.jpg");
-min-height: 552px;
-height: 100%;
+padding-bottom: 85px;
+background: url("../images/mksbw.jpg");
+height: auto;
 width: 100%;
-background-size: cover;
-display: flex;
-color: #fafafa;
+background-size: 100%, 100%;
 font-family: 'Poppins',serif;
 background-repeat: no-repeat;
-background-attachment: fixed;
 transition: all .5s ease-in-out;
 -o-transition: all .5s ease-in-out;
 -moz-transition: all .5s ease-in-out;
@@ -33,15 +29,11 @@ transition: all .5s ease-in-out;
 }
 
 /*-- Added text shadow to h1 --*/
-.jumbotron h1{
+.jumbotron h2, h3{
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
 
-.jumbotron p{
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-}
 
 /*-- Navbar Custom CSS --*/
 .navbar{
@@ -60,19 +52,43 @@ navbar-nav navbar-right li a:hover{
     
 }
 
-/*--Page sections--*/
+/*-----Page Sections-----*/
 
 /*--Band Section--*/
-.bandsection h3 p{
+.bandsection{
+    background-color: firebrick;
+    color: #fafafa;
+    padding-bottom: 50px;
+    
+}
+
+.bandsection h1 p{
     font-family: 'Poppins',serif;
 }
 
 .bandsection img{
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
 }
 
-/*--Footer CSS--*/
+/*--Music Section--*/
+.musicsection{
+    background-color: darkorange;
+    color: #fafafa;
+    
+}
+
+/*--Video Section--*/
+.videosection{
+
+}
+
+/*--Contact Us Section*/
+.contactssection{
+
+}
+
+/*-----Footer CSS-----*/
 footer{
     padding-top: 10px;
     padding-bottom: 5px;
@@ -83,8 +99,12 @@ footer{
 
 }
 
-/*-- social media buttons--*/
+/*-- Social Media Buttons--*/
 .fab{
     color: black;
 
 }
+
+/*--Media Queries--*/
+
+

@@ -1,6 +1,6 @@
-# Milestone Project One The Monkees!
+# Milestone Project One The Monkees
 
-Tasked to create a Static Website for a band, In this case "The Monkees"
+Tasked to create a Static Website for a band, In this case The Monkees  
 https://jsnbly.github.io/milestoneone/ 
 
 ## UX
