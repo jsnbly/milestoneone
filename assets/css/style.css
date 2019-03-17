@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Chicle:100,200,300,400,500,600,700');
 
 /*------Page Colors------*/
 body{
@@ -9,17 +9,23 @@ body{
 /*------Header CSS------*/
 header {
     margin: 0;
+    padding: 0px !important;
 }
 
 /*--Jumbotron--*/
 .jumbotron {
 background-color: transparent;
+padding-bottom: 0px;
+}
 
+.jumbotron h2{
+    font-family: 'Chicle',serif;
 }
 
 /*--transparent overlay for jumbotron--*/
 .tp-overlay{
     position: absolute;
+    padding: 0px;
     top: 0;
     left: 0;
     height: 100%;
@@ -31,8 +37,8 @@ background-color: transparent;
 .news-bg{
     height: 100vh;
     width: 100%;
-    
-    background: url('../images/mksbw.jpg') no-repeat center center fixed;
+    padding-bottom: 0px;
+    background: url('../images/mksbw.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,55 +57,87 @@ background-color: transparent;
 
 
 /*-- Navbar Custom CSS --*/
-.navbar{
-    background-color: whitesmoke;
-    border: 0;
+.navbar-default{
+    /*--background-color: rgb(58, 178, 187);--*/
+    background-color: orangered;
+    border: 0px;
+    color: #fafafa;
+    font-family: 'Chicle',serif;
+    font-size: 20px;
+
 }
 
-
-.navbar-default {
+.navbar-default .navbar-nav > li > a {
     
+    color: white; 
+}
+.navbar-header .navbar-brand {
+    color: white; 
+    font-size: 30px;
+}
+.navbar-header{
+    padding: 10px;
     
 }
 
-navbar-nav navbar-right li a:hover{
-    color: #1abc9c !important;
-    
-}
-
-/*--end of header css--*/
 
 
 /*-----Page Sections-----*/
+
+.bandsection h1, .musicsection h1, .videosection h1, .contactsection h1{
+    font-family: 'Chicle',serif;
+}
 
 /*--Band Section--*/
 .bandsection{
     background-color: firebrick;
     color: #fafafa;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
     
 }
 
-.bandsection h1 p{
-    font-family: 'Poppins',serif;
-}
 
 .bandsection img{
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    border: 5px solid #fafafa;
+}
+
+.members{
+    padding: 10px;
+    font-family: 'Chicle',serif;
 }
 
 /*--Music Section--*/
 .musicsection{
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
     background-color: darkorange;
     color: #fafafa;
-   
+      
 }
 
 .musicsection img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+    border-radius: 25px;
+    border: 5px solid #fafafa;
+    
+}
+
+.musicsection h4{
+    
+}
+
+.albums{
+    padding: 10px;
+    font-family: 'Chicle',serif;
 }
 
 /*--Video Section--*/
@@ -107,6 +145,7 @@ navbar-nav navbar-right li a:hover{
     background-color: darkolivegreen;
     color: #fafafa;
     padding-bottom: 50px;
+    font-family: 'Chicle',serif;
 
 }
 
@@ -114,7 +153,8 @@ navbar-nav navbar-right li a:hover{
 .contactsection{
     background-color: darkslategrey;
     color: #fafafa;
-
+    padding-top: 0px;
+    padding-bottom: 25px; 
 }
 
 /*-----Footer CSS-----*/

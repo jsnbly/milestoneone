@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
     <title>Hey Hey we're the Monkees!</title>
 </head>
 <body>
@@ -16,22 +17,22 @@
         <nav class="navbar navbar-default navbar-fixed-top">
                     <div class="container">
                       <div class="navbar-header">
-                          <a class="navbar-brand" href="#news-bg">The Monkees</a>
-                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <a class="navbar-brand" href="#news">The Monkees</a>
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
                           <span class ="sr-only">Toggle Navigation</span>
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span> 
                           <span class="icon-bar"></span>
-                          
+                          <span class="icon-bar"></span>
                         </button>
                       </div>
                       <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="#band">The Band</a></li>
-                          <li><a href="#music">The Music</a></li>
-                          <li><a href="#video">The Videos</a></li>
-                          <li><a href="#contact">Contact Us</a></li>
+                          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#band">The Band</a></li>
+                          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#music">The Music</a></li>
+                          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#video">The Videos</a></li>
+                          <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">Contact Us</a></li>
                           </ul>
                       </div>
                     </div>
@@ -39,7 +40,7 @@
      
       <!--Jumbotron-->
     
-      <div class="jumbotron text-left news-bg">
+      <div class="jumbotron text-left news-bg" id="news">
 
       <div class="container-fluid">
       <div class="tp-overlay">&nbsp;</div>
@@ -47,8 +48,8 @@
       
         
         <div>
-        <h2><i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>...One of the biggest bands from the 60's is back with a bang.</h2>
-        <h3>Welcome to the home of all new Monkees Music check out our Music and Video Sections</h3>
+        <h2><i class="fa fa-quote-left fa-1x fa-pull-left fa-border" aria-hidden="true"></i>...One of the biggest bands from the 60's is back with a bang.</h2>
+        <h3>Welcome to the all new home of The Monkees Music check out our Music and Video Sections</h3>
         <h3>We are also available for Weddings and Events, Contact us to find out more.</h3>
         <a href="#contact" class="btn btn-default btn-success">Contact Us</a>        
         </div>
@@ -65,22 +66,26 @@
     <!--Band Section-->
     <section class="container-fluid text-center bandsection" id="band">
         <div class="row">
-          <h1 class="text-uppercase">The Band</h1>
-          <div class="col-xs-6 col-md-3">
-          <h4>Peter Tork</h4>
+          <h1>The Band</h1>
+          <div class="col-xs-12 col-md-3 members">
+          <h4>On the Keyboard, its...</h4>
           <img src="assets/images/pt.jpg" alt="Peter Tork" class="img-circle">
+          <h4><i>Peter Tork</i></h4>
           </div>
-          <div class="col-xs-6 col-md-3">
-          <h4>Davy Jones</h4>
+          <div class="col-xs-12 col-md-3 members">
+          <h4>On the Mic, its...</h4>
           <img src="assets/images/dj.jpg" alt="Davy Jones" class="img-circle">
+          <h4><i>Davy Jones</i></h4>
           </div>
-          <div class="col-xs-6 col-md-3"> 
-          <h4>Mickey Dolenz</h4>
+          <div class="col-xs-12 col-md-3 members"> 
+          <h4>On the Drums, its...</h4>
           <img src="assets/images/md2.jpg" alt="Mickey Dolenz" class="img-circle">
+          <h4><i>Mickey Dolenz</i></h4>
           </div>
-          <div class="col-xs-6 col-md-3"> 
-          <h4>Michael Nesmith</h4>
+          <div class="col-xs-12 col-md-3 members"> 
+          <h4>On Guitar, its...</h4>
           <img src="assets/images/mn.jpg" alt="Michael Nesmith" class="img-circle">
+          <h4><i>Michael Nesmith</i></h4>
           </div>
         </div>       
     </section>
@@ -88,41 +93,111 @@
     <!--Music Section-->
     <section class="container-fluid text-center musicsection" id="music">
         <div class="row">
-          <h1 class="text-uppercase">The Music</h1>
-          <div class="col-xs-6">
+          <h1>The Music</h1>
+          <div class="col-xs-12 col-md-6 albums">
             <img src="assets/images/album.jpg">
+            
+            <!-- audio -->
+             <h4>Not Your Stepping Stone!"</h4>
+             <audio controls>
+                <source src="assets/audio/steppingstone.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+
           </div>
-          <div class="col-xs-6">
+          <div class="col-xs-12 col-md-6 albums">
               <img src="assets/images/album2.jpg">
+              
+              <!-- audio -->
+              <h4>"I'm a Believer"</h4>
+              <audio controls>
+                  <source src="assets/audio/imabeliever.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+
             </div>
         </div>
     </section>
 
     <!--Video Section-->
     <section class="container-fluid text-center videosection" id="video">
-        <div>
-            <h1 class="text-uppercase">The Videos</h1>
+        <div class="col-xs-12 col-md-12 col-lg-6 justify-content-center" >
+            <h1>The Videos</h1>
+            <h4>"Day Dream Believer"</h4>
             <div class="embed-responsive embed-responsive-16by9">
-              <video controls>
+                <video controls>
                 <source src="./assets/video/TheMonkees.mp4" type="video/mp4">
               </video>
             </div>
-          </div>
+        </div>
     </section>
 
     <!--Contact Us Section-->
     <section class="container-fluid text-center contactsection" id="contact">
         <div>
-            <h1 class="text-uppercase">Contact Us</h1>
+            <h1>Contact Us</h1>
 
-            <form action="#">
+            <form id="contact" method="post" action="#" role="form">
 
-                <label for="name">Name</label>
-                <input type="text" id="name" name="clientname" placeholder="Your name..."><br>
-                <label for="subject">Event Description</label><br>
-                <textarea id="subject" name="subject" placeholder="Tell us about your event..." style="height:150px"></textarea><br>
-                <input type="submit" value="Submit">
-                </form>
+                <div class="messages"></div>
+            
+                <div class="controls">
+            
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Lastname *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_need">Please specify your need *</label>
+                                <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                    <option value=""></option>
+                                    <option value="Request quotation">Request quotation</option>
+                                    <option value="Request order status">Request order status</option>
+                                    <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            
+            </form>
           </div>
     </section>
 
@@ -133,20 +208,24 @@
            
               <!-- Facebook -->
               <a class="fb-ic">
-                <i class="fab fa-facebook-f fa-lg fa-2x"> </i>
+                <i class="fab fa-facebook-f fa-lg fa-2x fa-fw"> </i>
               </a>
               <!-- Twitter -->
               <a class="tw-ic">
-                <i class="fab fa-twitter fa-lg fa-2x"> </i>
+                <i class="fab fa-twitter fa-lg fa-2x fa-fw"> </i>
               </a>
           
               <!--Linkedin -->
               <a class="li-ic">
-                <i class="fab fa-linkedin-in fa-lg fa-2x"> </i>
+                <i class="fab fa-linkedin-in fa-lg fa-2x fa-fw"> </i>
+              </a>
+              <!--Youtube-->
+              <a class="yt-ic">
+              <i class="fab fa-youtube fa-lg fa-2x fa-fw"></i>
               </a>
               <!--Instagram-->
               <a class="ins-ic">
-                <i class="fab fa-instagram fa-lg fa-2x"> </i>
+                <i class="fab fa-instagram fa-lg fa-2x fa-fw"> </i>
               </a>
             </div>
                  

@@ -34,6 +34,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
+Fav Icon Generated at : https://favicon.io/favicon-generator/
+
 
 ## Testing
 
