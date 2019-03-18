@@ -3,23 +3,32 @@
 /*------Page Colors------*/
 body{
     background-color: white;
-
 }
 
 /*------Header CSS------*/
 header {
     margin: 0;
-    padding: 0px !important;
+    border: 0;
+    padding: 0 !important;
+    height: 100%;
+   
 }
 
 /*--Jumbotron--*/
 .jumbotron {
 background-color: transparent;
-padding-bottom: 0px;
+margin-bottom: 0 !important;
+
 }
 
-.jumbotron h2{
+.jumbotron h2,h3{
     font-family: 'Chicle',serif;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    line-height: 1.1;
+    background: #000000;
+    padding: 5px;
+    border-radius: 5%;
 }
 
 /*--transparent overlay for jumbotron--*/
@@ -49,56 +58,69 @@ padding-bottom: 0px;
     position: relative;
 }
 
-/*-- Added text shadow to h1 --*/
-.jumbotron h2, h3{
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-
 /*-- Navbar Custom CSS --*/
 .navbar-default{
     /*--background-color: rgb(58, 178, 187);--*/
-    background-color: orangered;
+    background-image: linear-gradient(180deg,red, orangered);
     border: 0px;
     color: #fafafa;
     font-family: 'Chicle',serif;
     font-size: 20px;
-
+    width: 100%;
+   
 }
 
 .navbar-default .navbar-nav > li > a {
-    
     color: white; 
+    line-height: 34px;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fafafa
 }
 .navbar-header .navbar-brand {
-    color: white; 
+    color: white !important; 
     font-size: 30px;
 }
+
 .navbar-header{
-    padding: 10px;
-    
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
+.navbar-toggle{
+    margin-top:0px;
+}
 
+.navbar-collapse{
+    -webkit-transition:.5s ease-in-out;
+    -moz-transition:.5s ease-in-out;
+    -o-transition:.5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white !important;;
+}
 
 /*-----Page Sections-----*/
 
 .bandsection h1, .musicsection h1, .videosection h1, .contactsection h1{
     font-family: 'Chicle',serif;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 /*--Band Section--*/
 .bandsection{
-    background-color: firebrick;
+    /*--background-color: firebrick;--*/
+    background-image: linear-gradient(180deg,firebrick, darkorange);
     color: #fafafa;
     padding-bottom: 40px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 0px;
-    
 }
-
 
 .bandsection img{
     width: 125px;
@@ -117,7 +139,8 @@ padding-bottom: 0px;
     padding-bottom: 40px;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: darkorange;
+    /*--background-color: darkorange;--*/
+    background-image: linear-gradient(180deg,darkorange, darkolivegreen);
     color: #fafafa;
       
 }
@@ -130,11 +153,7 @@ padding-bottom: 0px;
     border: 5px solid #fafafa;
     
 }
-
-.musicsection h4{
-    
-}
-
+/*--Album Images--*/
 .albums{
     padding: 10px;
     font-family: 'Chicle',serif;
@@ -142,9 +161,10 @@ padding-bottom: 0px;
 
 /*--Video Section--*/
 .videosection{
-    background-color: darkolivegreen;
+    /*--background-color: darkolivegreen;--*/
+    background-image: linear-gradient(180deg, darkolivegreen, darkslategrey);
     color: #fafafa;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     font-family: 'Chicle',serif;
 
 }
