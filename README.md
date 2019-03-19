@@ -15,7 +15,7 @@ The Music Section includes Audio to Play as well as links to Spotify for the bac
 The Band Section introduces the Band members and their Roles it also links to Facebook, Twitter and Instagram
 
 - As a Potential Client I would like to see videos of the Band in Action  
-The Video Section shows clips of the band in action an links to youtube
+The Video Section shows clips of the band in action and links the user to youtube
 
 - I would like to Contact the Band to arrange a booking  
 The Contact Section offers the user a way to contact the band directly and gives them options of types of queries
@@ -55,31 +55,31 @@ https://jsnbly.github.io/milestoneone/
 - Tour Calander for the Band
 
 ## Technologies Used
-HTML5 / CSS3  
+1. HTML5 / CSS3  
 Used to Build the index.html and style.css Files : https://www.w3schools.com/html/html_intro.asp  
-Google Chrome  
+2. Google Chrome  
 Used for Testing Code and Viewing Design on Different Resolutions : https://www.google.com/chrome/  
-Bootstrap 3  
+3. Bootstrap 3  
 Framework used to help simplify responsive design : https://getbootstrap.com/docs/3.3/   
-Google Fonts  
+4. Google Fonts  
 Used to aquire relevent font for project : https://fonts.google.com/  
-Font Awesome  
+5. Font Awesome  
 Used to style Social Media Buttons : https://fontawesome.com/     
-VSCode  
+6. VSCode  
 IDE used to develop project code : https://code.visualstudio.com/   
-Git 2.11.0  
+7. Git 2.11.0  
 Used for Version Control : https://git-scm.com/  
-Github  
+8. Github  
 Used for projects remote repository for Version Control : https://github.com/  
-Terminal (ChromeOS)  
+9. Terminal (ChromeOS)  
 Used to run Git : https://support.google.com/chromebook/answer/9145439?hl=en     
-Google Docs  
+10. Google Docs  
 User Experience Documentation : https://www.google.com/docs/about/  
-Gimp  
+11. Gimp  
 Wireframeing : https://www.gimp.org  
-Mockflow   
+12. Mockflow   
 Wireframeing : https://mockflow.com/app/#Wireframe  
-Fav Icon Generated at : https://favicon.io/favicon-generator/  
+13. Fav Icon Generated at : https://favicon.io/favicon-generator/  
 
 
 ## Testing
@@ -131,10 +131,10 @@ All images and videos used for educational purposes and remain copyright of orgi
 Original content
 
 ### Media
-listen.jpg https://en.wikipedia.org/wiki/Listen_to_the_Band_(album)
-monkees_portrait.jpg https://www.hollywoodreporter.com/thr-esq/musician-sues-monkees-discrimination-wrongful-880054
-mksbw.jpg https://en.wikipedia.org/wiki/The_Monkees
-All Other media taken from supplied Github Repo.
+listen.jpg https://en.wikipedia.org/wiki/Listen_to_the_Band_(album)  
+monkees_portrait.jpg https://www.hollywoodreporter.com/thr-esq/musician-sues-monkees-discrimination-wrongful-880054  
+mksbw.jpg https://en.wikipedia.org/wiki/The_Monkees  
+All Other media taken from supplied Github Repo.  
 
 ### Acknowledgements
 Code Institute Full Stack Course

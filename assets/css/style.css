@@ -50,9 +50,9 @@ margin-bottom: 0 !important;
 
 /*jumbotron background*/
 .news-bg{
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     background: url('../images/mksbw.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -92,17 +92,18 @@ margin-bottom: 0 !important;
 }
 
 .navbar-header{
-    
+    border:0px;
     padding-right: 10px;
     padding-top: 10px;
 }
 
 .navbar-toggle{
-    
+    border:0px;
     margin-top:0px;
 }
 
 .navbar-collapse{
+    border:0px;
     transition: 5s ease-in-out;
     -webkit-transition:.5s ease-in-out;
     -moz-transition:.5s ease-in-out;
@@ -111,6 +112,7 @@ margin-bottom: 0 !important;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
+    border:0px;
     background-color: white !important;;
 }
 
@@ -121,6 +123,16 @@ margin-bottom: 0 !important;
     font-weight: 500;
     text-shadow: 2px 2px 4px #000000;
    
+}
+
+.linknav, .linknav:hover{
+    color: #fafafa;
+    font-family: 'Chicle',serif;
+}
+
+.hline{
+    border: 2px solid black;
+    width: 25%;
 }
 
 /*--Band Section--*/
