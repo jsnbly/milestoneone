@@ -67,13 +67,15 @@
         <div class="row">
           <h1>The Band</h1>
           <h2>Follow us for all the latest news</h2>
-          <h4><a href="https://www.facebook.com/TheMonkees/" target="_blank" class="fb-ic">
+          <div>
+          <a href="https://www.facebook.com/TheMonkees/" target="_blank" class="fb-ic">
             <i class="fab fa-facebook-f fa-lg fa-2x fa-fw"> </i>
           </a> <a href="https://twitter.com/TheMonkees" target="_blank" class="tw-ic">
             <i class="fab fa-twitter fa-lg fa-2x fa-fw"> </i>
           </a> <a href="https://www.instagram.com/themonkees/" target="_blank" class="ins-ic">
             <i class="fab fa-instagram fa-lg fa-2x fa-fw"> </i>
-          </a></h4>
+          </a>
+          </div>
           <div class="col-xs-6 col-md-3 members">
           <h4>On Keyboards, its...</h4>
           <img src="assets/images/pt.jpg" alt="Peter Tork" class="img-circle">
@@ -106,7 +108,7 @@
               <i class="fab fa-spotify fa-lg fa-2x fa-fw"></i>
               </a></h4>
           <div class="col-xs-12 col-md-6 albums">
-            <img src="assets/images/album.jpg">
+            <img src="assets/images/album.jpg" alt="Greatest Hits Album Cover">
             
             <!-- audio -->
              <h4>Not Your Stepping Stone!"</h4>
@@ -117,7 +119,7 @@
 
           </div>
           <div class="col-xs-12 col-md-6 albums">
-              <img src="assets/images/album2.jpg">
+              <img src="assets/images/album2.jpg" alt="Very Best Of Album Cover">
               
               <!-- audio -->
               <h4>"I'm a Believer"</h4>
@@ -155,11 +157,11 @@
             <h4>Drop us a line about an event you have planned and we will contact you to go through the options.</h4>
             </div>
             <!--Contact Form-->
-            <form class="form-horizontal" action="#">
+            <form class="form-horizontal" action="#" onSubmit="alert('Thank you for your mail')">
             <div class="form-group">
               <label class="control-label col-xs-2" for="name">Name:</label>
               <div class="col-xs-10">
-                <input type="text" class="form-control" id="email" placeholder="What is your Name?" required>
+                <input type="text" class="form-control" id="name" placeholder="What is your Name?" required>
               </div>
             </div>
             <div class="form-group">
@@ -172,9 +174,10 @@
                 <label class="control-label col-xs-2" for="event1">Event:</label>
                 <div class="col-xs-10">
                 <select class="form-control" id="event1" required>
+                  <option value="">Choose...</option>
                   <option>Wedding</option>
                   <option>Corporate Even</option>
-                  <option>Other</option>
+                  <option>Other...</option>
                 </select>
                 </div>
             </div>
