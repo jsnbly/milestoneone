@@ -1,7 +1,8 @@
 # Milestone Project One The Monkees
 
 Tasked to create a Static Website for a band, In this case The Monkees  
-https://jsnbly.github.io/milestoneone/ 
+https://jsnbly.github.io/milestoneone/  
+![Alt text](/assets/images/screenshotgit.jpg?raw=true "Monkees Screenshot")
 
 ## UX
  
@@ -14,7 +15,14 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Responsive Navbar/Hamburger Dropdown at top of the page to allow quick access to different sections.
+Jumbotron/News Section, Designed to contain the most relevent news on the site
+Band Section, has information about the band members as well as social media links for easy access to social media platforms
+Music Section, Has a list of the bands albums, Audio Players to give the user a sample of the Bands music also Links to Spotify
+Video Section, Has a list of the bands Videos, Video Player to give the user a sample of the Bands Videos also link to Youtube
+Contact Section, Has a web form the user can fill in to contact the band to arrange a performance.
+Footer has links to social media channels.
+
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -29,11 +37,16 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+Bootstrap 3 - Framework used to help simplify responsive design : https://getbootstrap.com/docs/3.3/ 
+Google Fonts - Used to aquire relevent font for project : https://fonts.google.com/
+Font Awesome -  Used to style Social Media Buttons : https://fontawesome.com/   
+VSCode - IDE used to develop project code : https://code.visualstudio.com/ 
+Git 2.11.0 - Used for Version Control : https://git-scm.com/
+Github - Used for projects remote repository for Version Control : https://github.com/
+Terminal (ChromeOS) - Used to run Git : https://support.google.com/chromebook/answer/9145439?hl=en   
+Google Docs - User Experience Documentation : https://www.google.com/docs/about/
+Gimp - Wireframing : https://www.gimp.org
+Mockflow - Wireframeing : https://mockflow.com/app/#Wireframe
 Fav Icon Generated at : https://favicon.io/favicon-generator/
 
 
@@ -72,11 +85,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+All Orginal content
 
 ### Media
-- The photos used in this site were obtained from ...
+listen.jpg https://en.wikipedia.org/wiki/Listen_to_the_Band_(album)
+monkees_portrait.jpg https://www.hollywoodreporter.com/thr-esq/musician-sues-monkees-discrimination-wrongful-880054
+mksbw.jpg https://en.wikipedia.org/wiki/The_Monkees
+All Other media taken from supplied Github Repo.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
