@@ -23,18 +23,18 @@ The Contact Section offers the user a way to contact the band directly and gives
 ## Links to UX Documentation
 
 Strategy  
-/User-exp-design/strategy/strategy-monkees.pdf
+https://jsnbly.github.io/milestoneone/User-exp-design/strategy/strategy-monkees.pdf
 
 Scope  
-/User-exp-design/scope/scope-monkees.pdf
+https://jsnbly.github.io/milestoneone/User-exp-design/scope/scope-monkees.pdf
 
 Structure
-/User-exp-design/structure/structure-monkees.pdf
+https://jsnbly.github.io/milestoneone/User-exp-design/structure/structure-monkees.pdf
 
 Skeleton  
 The UX was designed using the following Wireframes for Mobile and Desktop  
-/User-exp-design/skeleton/milestone1mobilewireframe.png      
-/User-exp-design/skeleton/DesktopWireframe.pdf
+https://jsnbly.github.io/milestoneone/User-exp-design/skeleton/milestone1mobilewireframe.png      
+https://jsnbly.github.io/milestoneone/User-exp-design/skeleton/DesktopWireframe.pdf
 
 Surface  
 https://jsnbly.github.io/milestoneone/  
@@ -125,9 +125,10 @@ There are no differences between the code deployed to github and development ver
 Chrome was used to view the files locally.
 
 ## Credits
+All images and videos used for educational purposes and remain copyright of orginal author!
 
 ### Content
-All Original content
+Original content
 
 ### Media
 listen.jpg https://en.wikipedia.org/wiki/Listen_to_the_Band_(album)
@@ -136,4 +137,5 @@ mksbw.jpg https://en.wikipedia.org/wiki/The_Monkees
 All Other media taken from supplied Github Repo.
 
 ### Acknowledgements
+Code Institute Full Stack Course
 
